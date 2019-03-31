@@ -28,7 +28,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="wrapContainer">
         <Todo onAddList={this.addList}/>
         <List items={this.state.listItems} removeItem={this.removeTodo}/>
       </div>

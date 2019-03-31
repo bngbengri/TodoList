@@ -1,8 +1,7 @@
 .main{
     text-align : center;
-    width: 340px;
-    margin:auto;
-    margin-bottom: 25px;
+    padding:20px;
+    background-color: #a14af6;
 }
 .child{
     font-size: 24px;
@@ -15,15 +14,26 @@
     cursor: pointer;
     line-height: 35px;
     font-size: 24px;
-    background-color: #fff;
+    background-color: #d2b1f6;
+    margin: auto;
     margin-top: 15px;
+    color: #a663e9;
+
 }
 .subList:hover {
-    /* background-color: #f3d8dd; */
-    outline: 2px solid#fff;
+    /* background-color: #bd88f3; */
+    outline: 2px solid#be89f8;
     box-shadow: 3px 3px 7px #696d6d;
 } 
 
 .list{
     padding: 0;
+}
+button , input{
+    background-color: #d8c0f8;
+    color: #9e47f4;
+    padding: 3px;
+}
+input{
+    
 }

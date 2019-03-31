@@ -1,9 +1,17 @@
 body{
   padding: 50px;
   font-family: serif;
-  background-color: pink;
+  background-color: #d7bdf6;
 }
 
-#root{
-  margin: 50px;
+.wrapContainer{
+  width: 500px;
+  height: 500px;
+  background-color: #bd8bf2;
+  border: 2px #d1aef3;
+  position: absolute;
+  top:50%;
+  right: 50%;
+  transform: translate(50%,-50%);
+  overflow-y: scroll;
 }
