@@ -1,0 +1,29 @@
+.main{
+    text-align : center;
+    width: 340px;
+    margin:auto;
+    margin-bottom: 25px;
+}
+.child{
+    font-size: 24px;
+    margin-Right : 15px;
+}
+.subList{
+    list-style-type: none;
+    width: 340px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 35px;
+    font-size: 24px;
+    background-color: #fff;
+    margin-top: 15px;
+}
+.subList:hover {
+    /* background-color: #f3d8dd; */
+    outline: 2px solid#fff;
+    box-shadow: 3px 3px 7px #696d6d;
+} 
+
+.list{
+    padding: 0;
+}
